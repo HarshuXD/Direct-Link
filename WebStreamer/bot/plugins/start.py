@@ -15,7 +15,7 @@ START_TEXT = """
 <i>Clickk On Help Button Get Get Info!</i>\n
 <i><u>𝗪𝗔𝗥𝗡𝗜𝗡𝗚 </u></i>
 <b>🔞 Porn Content May Lead You To A Permanent Ban</b>\n\n
-<i><b>Developer:</b>@AafuSam13</i>"""
+<i><b>Developer:</b>@Harshu_xD</i>"""
 
 HELP_TEXT = """
 <i>- Forward Any Telegram File Or Media.</i>
@@ -24,15 +24,14 @@ HELP_TEXT = """
 <i>- This Is A Permanent Link</i>\n
 <u> 𝗪𝗔𝗥𝗡𝗜𝗡𝗚 </u>\n
 <b>🔞 Porn Content May Lead You To A Permanent Ban</b>\n
-<i>Contact Developer Or Report Bugs</i> <b>: <a href='https://t.me/AafuSam13'>[ Click Here]</a></b>"""
+<i>Contact Developer Or Report Bugs</i> <b>: <a href='https://t.me/Harshu_xD'>[ Click Here]</a></b>"""
 
 ABOUT_TEXT = """
 <b>🧑🏻Mʏ ɴᴀᴍᴇ : Direct-Link-Bot</b>\n
 <b>🔸Movie Channel : <a href='https://t.me/+0Oi54BOKV_A2YTI1'>Movies</a></b>\n
-<b>🔹Our Community : <a href='https://telegram.me/Apkapkapak'>Community</a></b>\n
-<b>🔹Sᴏᴜʀᴄᴇ Code : <a href='https://github.com/aafusam/Direct-Link-Bot'>Github</a></b>\n
-<b>🔹Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://telegram.me/AafuSam13'>AafuSam</a></b>\n
-<b>🔸Follow On Instagram : <a href='https://instagram.com/afiq_sam_/'>Instagram</a></b>"""
+<b>🔹Our Community : <a href='https://telegram.me/StarterNetworkz'>Network</a></b>\n
+<b>🔹Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://telegram.me/Harshu_XD'>Harsh</a></b>\n
+<b>🔸Leech & Mirror Group : <a href='https://t.me/StarterLeech'>Leech & Mirror Group</a></b>"""
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
@@ -122,7 +121,7 @@ async def start(b, m):
                     text="<i>Join Our Channel To Use The Bot 🔐</i>",
                     reply_markup=InlineKeyboardMarkup(
                         [[
-                            InlineKeyboardButton("Jᴏɪɴ ɴᴏᴡ 🔓", url=f"https://t.me/+0Oi54BOKV_A2YTI1")
+                            InlineKeyboardButton("Jᴏɪɴ ɴᴏᴡ 🔓", url=f"https://t.me/StarterMods")
                             ]]
                     ),
                     parse_mode="HTML"
@@ -131,7 +130,7 @@ async def start(b, m):
             except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="<i>Sᴏᴍᴇᴛʜɪɴɢ ᴡʀᴏɴɢ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ</i> <b><a href='http://t.me/AafuSam13'>[ Click Here ]</a></b>",
+                    text="<i>Sᴏᴍᴇᴛʜɪɴɢ ᴡʀᴏɴɢ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ</i> <b><a href='http://t.me/Harshu_xD'>[ Click Here ]</a></b>",
                     parse_mode="HTML",
                     disable_web_page_preview=True)
                 return
@@ -161,8 +160,8 @@ async def start(b, m):
                     text="**Join Our Partner Channel To Use The Bot**!\n\n**Dᴜᴇ ᴛᴏ Oᴠᴇʀʟᴏᴀᴅ, Oɴʟʏ Cʜᴀɴɴᴇʟ Sᴜʙsᴄʀɪʙᴇʀs ᴄᴀɴ ᴜsᴇ ᴛʜᴇ Bᴏᴛ**!",
                     reply_markup=InlineKeyboardMarkup(
                         [[
-                          InlineKeyboardButton("🤖 Join Partner Channel", url=f"https://t.me/+0Oi54BOKV_A2YTI1")],
-                         [InlineKeyboardButton("🔄 Refresh / Try Again", url=f"https://t.me/{(await b.get_me()).username}?start=AafuSam13_{usr_cmd}")
+                          InlineKeyboardButton("🤖 Join Partner Channel", url=f"https://t.me/StarterMods")],
+                         [InlineKeyboardButton("🔄 Refresh / Try Again", url=f"https://t.me/{(await b.get_me()).username}?start=HarshxD_{usr_cmd}")
                         
                         ]]
                     ),
@@ -172,7 +171,7 @@ async def start(b, m):
             except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="**Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ** [AafuSam](https://t.me/AafuSam13).",
+                    text="**Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ** [Harsh](https://t.me/Harshu_xD).",
                     parse_mode="markdown",
                     disable_web_page_preview=True)
                 return
@@ -193,7 +192,7 @@ async def start(b, m):
 <b>📦 Fɪʟᴇ ꜱɪᴢᴇ :</b> <i>{}</i>\n
 <b>📥 Dᴏᴡɴʟᴏᴀᴅ :</b> <i>{}</i>\n
 <b>🚸 Nᴏᴛᴇ : Lɪɴᴋ ᴇxᴘɪʀᴇᴅ ɪɴ 24 ʜᴏᴜʀꜱ</b>\n
-<i>🍃 Developer:</i> <b>@AafuSam13</b>
+<i>🍃 Developer:</i> <b>@Harshu_xD</b>
 """
 
         await m.reply_text(
@@ -238,7 +237,7 @@ async def help_handler(bot, message):
                 text="**Join Our Partner Channel To Use The Bot**\n\n__Dᴜᴇ ᴛᴏ Oᴠᴇʀʟᴏᴀᴅ, Oɴʟʏ Cʜᴀɴɴᴇʟ Sᴜʙsᴄʀɪʙᴇʀs ᴄᴀɴ ᴜsᴇ ᴛʜᴇ Bᴏᴛ!__",
                 reply_markup=InlineKeyboardMarkup(
                     [[
-                        InlineKeyboardButton("🤖 Join Partner Channel", url=f"https://t.me/+0Oi54BOKV_A2YTI1")
+                        InlineKeyboardButton("🤖 Join Partner Channel", url=f"https://t.me/StarterChannel")
                         ]]
                 ),
                 parse_mode="markdown"
@@ -247,7 +246,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ [AafuSam](https://t.me/AafuSam13).",
+                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ [Harsh](https://t.me/Harshu_xD).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
